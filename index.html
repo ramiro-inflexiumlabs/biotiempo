@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biotiempo | Gestión de Personal de Próxima Generación</title>
+  <meta name="description"
+    content="Empodera a tu fuerza laboral y aumenta la productividad con las soluciones de tiempo y asistencia de Biotiempo.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="container nav-content">
+      <div class="logo">
+        <img src="img/logo.png" alt="Biotiempo Logo">
+        <span>Biotiempo</span>
+      </div>
+
+      <div class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#eficiencia">Eficiencia</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#contacto">Contacto</a>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+          <i data-lucide="sun" id="sunIcon"></i>
+          <i data-lucide="moon" id="moonIcon" style="display: none;"></i>
+        </button>
+      </div>
+
+      <button class="btn btn-primary" style="padding: 0.75rem 1.5rem;">Prueba Gratis</button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Empodera a tu fuerza laboral</h1>
+          <p>Optimiza la productividad con Biotiempo. Nuestras soluciones de tiempo y asistencia están diseñadas para el
+            éxito de tu empresa en la era digital.</p>
+          <div class="cta-group">
+            <button class="btn btn-primary">Empezar Ahora</button>
+            <button class="btn btn-outline">Ver Demo</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="efficiency" id="eficiencia">
+      <div class="container efficiency-grid">
+        <div class="efficiency-image">
+          <img src="img/hero.png" alt="Biometría de Biotiempo">
+        </div>
+        <div class="efficiency-text">
+          <h2>Eficiencia con Biotiempo</h2>
+          <p>Nuestra solución automatizada de seguimiento de tiempo agiliza la gestión de tu fuerza laboral, ahorrándote
+            tiempo y complicaciones.</p>
+          <p>Deja que Biotiempo se encargue del registro de asistencia mientras tú te concentras en lo que realmente
+            importa.</p>
+          <button class="btn btn-outline">Saber más</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="caracteristicas">
+      <div class="container">
+        <div class="section-header">
+          <h2>Características Premium</h2>
+          <p>Diseñado para empresas modernas que buscan excelencia operativa.</p>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon"><i data-lucide="fingerprint"></i></div>
+            <h3>Biometría Avanzada</h3>
+            <p>Identificación precisa para garantizar que la persona adecuada esté en el lugar correcto.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon"><i data-lucide="clock"></i></div>
+            <h3>Tiempo Real</h3>
+            <p>Visualiza la asistencia y puntualidad de tu equipo con datos actualizados al segundo.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon"><i data-lucide="bar-chart"></i></div>
+            <h3>Reportes Inteligentes</h3>
+            <p>Obtén información valiosa mediante analíticas detalladas y reportes personalizables.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contacto" style="padding: 120px 0; background: var(--bg-primary);">
+      <div class="container" style="max-width: 800px;">
+        <div class="section-header">
+          <h2>Contáctanos</h2>
+          <p>Estamos listos para llevar tu gestión de personal al siguiente nivel.</p>
+        </div>
+        <form style="display: grid; gap: 1.5rem;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <input type="text" placeholder="Nombre"
+              style="padding: 1rem; border-radius: 12px; border: 1px solid var(--glass-border); background: var(--bg-secondary); color: var(--text-primary);">
+            <input type="email" placeholder="Email"
+              style="padding: 1rem; border-radius: 12px; border: 1px solid var(--glass-border); background: var(--bg-secondary); color: var(--text-primary);">
+          </div>
+          <textarea placeholder="Mensaje" rows="5"
+            style="padding: 1rem; border-radius: 12px; border: 1px solid var(--glass-border); background: var(--bg-secondary); color: var(--text-primary);"></textarea>
+          <button type="submit" class="btn btn-primary" style="justify-self: center;">Enviar Mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="social-links" style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 2rem;">
+        <a href="#" class="social-icon"
+          style="width: 44px; height: 44px; border-radius: 50%; background: var(--bg-secondary); display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"><i
+            data-lucide="linkedin"></i></a>
+        <a href="#" class="social-icon"
+          style="width: 44px; height: 44px; border-radius: 50%; background: var(--bg-secondary); display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"><i
+            data-lucide="twitter"></i></a>
+        <a href="#" class="social-icon"
+          style="width: 44px; height: 44px; border-radius: 50%; background: var(--bg-secondary); display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;"><i
+            data-lucide="instagram"></i></a>
+      </div>
+      <p>&copy; 2026 Biotiempo Labs. Todos los derechos reservados.</p>
+      <p style="font-size: 0.8rem; margin-top: 1rem;">www.biotiempo.com</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+  </script>
+</body>
+
+</html>
